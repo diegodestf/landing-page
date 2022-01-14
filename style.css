@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+.header {
+    display: flex;
+    height: 54px;
+}
+
+img {
+    max-height: 54px;
+}
