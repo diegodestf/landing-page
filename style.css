@@ -1,12 +1,16 @@
-body {
-    display: flex;
+.first-container {
+
+    background-color: #1F2937;
+    
 }
 
 .header {
     display: flex;
-    height: 54px;
+    padding: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 img {
-    max-height: 54px;
+    height: 51px;
 }
