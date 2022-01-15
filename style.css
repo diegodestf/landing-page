@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
 }
 
-img {
+.header .logo img {
     height: 51px;
 }
 
@@ -26,4 +26,46 @@ img {
     color: #F9FAF8;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    padding: 50px 0 50px 150px;
+}
+
+.description {
+    font-size: 20px;
+    color: #E5E7EB;
+    padding: 0 150px;
+    font-weight: bold;
+}
+
+.hero-right img {
+    height: 367px;
+    width: 350px;
+    padding: 50px 150px 50px 0px;
+}
+
+button {
+    color: white;
+    background: #3882F6;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 100px;
+    height: 30px;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-weight: bold;
 }
