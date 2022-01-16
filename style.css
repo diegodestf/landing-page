@@ -69,3 +69,40 @@ button {
     margin-top: 20px;
     font-weight: bold;
 }
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.second-container div {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards figure img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.cards figure {
+    font-size: 20px;
+    margin: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.cards figure figcaption {
+    margin-top: 20px;
+}
