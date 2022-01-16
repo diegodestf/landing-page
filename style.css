@@ -106,3 +106,29 @@ button {
 .cards figure figcaption {
     margin-top: 20px;
 }
+
+.third-container {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    
+}
+
+.third-container figcaption {
+
+    font-size: 24px;
+    font-weight: lighter;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+
+}
+
+.third-container blockquote {
+
+    font-size: 36px;
+    font-weight: lighter;
+}
+
